@@ -9,9 +9,9 @@ import java.util.*;
 public class h1b_counting {
 	public static void main(String[] args) throws IOException {
 		
-		BufferedReader br  = new BufferedReader(new FileReader("./input/h1b_input.csv")); //input file
-		BufferedWriter bw  = new BufferedWriter(new FileWriter("./output/top_10_occupations.txt"));
-		BufferedWriter bw2 = new BufferedWriter(new FileWriter("./output/top_10_states.txt"));
+		BufferedReader br  = new BufferedReader(new FileReader("../input/h1b_input.csv")); //input file
+		BufferedWriter bw  = new BufferedWriter(new FileWriter("../output/top_10_occupations.txt"));
+		BufferedWriter bw2 = new BufferedWriter(new FileWriter("../output/top_10_states.txt"));
 		
 		Map<String,Integer> map = new TreeMap<>(); // to store the certified application according to occupation
 		Map<String,Integer> statemap = new TreeMap<>();//to store the certified application according to states
