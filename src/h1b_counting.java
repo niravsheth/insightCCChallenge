@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-public class solution {
+public class h1b_counting {
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br  = new BufferedReader(new FileReader("./input/h1b_input.csv")); //input file
